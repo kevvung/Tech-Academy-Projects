@@ -3,15 +3,15 @@
 table{
 border:1px solid silver;
 }
-td: hover {
+td:hover {
 	background-color: yellow;
-	color black;
+	color: black;
 }
 tr,th{
 	background-color: black;
 	color cornsilk;
 }
-tr, td {
+tr,td {
 	background-color: darkgreen;
 	color: white;
 }
