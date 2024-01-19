@@ -1,0 +1,73 @@
+.container{
+    width: 450px;
+    height: 450px;
+    background-color: #faebd7;
+    border: 2px solid black;
+}
+/*-------------------------------
+Select all squares in the array
+---------------------------------*/
+.container .squares:nth-child(-n+4){
+    background-image:url(icons/icons2.png);
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.container .squares:nth-child(-n+4){
+    background-image:url(icons/icons.png);
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 25%;
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+}
+.container .squares:nth-child(-n+4){
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 1.5em;
+   font-weight: 900;
+   text-align: center;
+   margin: 0;
+   text-shadow: 2px 1px 4px rgba(red, green, blue, alpha) ;
+}
+/*---------------------------------------------
+Individually select a square in the array
+-------------------*/
+.squares:nth-child(1){
+background: #414141;
+}
+.squares:nth-child(2){
+    background: hsla(253, 83%, 35%, 0.267);
+    }
+    .squares:nth-child(3){
+        background: #414141;
+        }
+        .squares:nth-child(4){
+            background: #cc2626;
+            }
+/*---------------------------------------------
+Hover,Translate, and Transform Effects
+----------------------------------------*/
+.container.squares:nth-child(-n+4):hover{
+    background-image: url(icons/icons2.png);
+}
+.squares:nth-child(1):hover{
+    background: #eff4f7;
+}
+.squares:nth-child(2):hover{
+    background: #13b4ff;
+}
+.squares:nth-child(3):hover{
+    background: #13b4ff;
+}
+.squares:nth-child(4):hover{
+    background: #13b4ff;
+}
